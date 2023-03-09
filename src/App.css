@@ -1,7 +1,6 @@
 .App{
   margin: 10px;
   height: 980px;
-  background-color: rgb(250, 79, 250);
   display: grid;
   gap: 10px;
   border-radius: 15px;
@@ -16,7 +15,6 @@
 
  .navClimate{
   text-align: center;
-  background-color: red;
   border: 2px solid black;
   border-radius: 15px;
   margin: 0px 0px 0px 10px
@@ -26,24 +24,24 @@
   padding: 10px;
   display: grid;
   gap: 15px 0px;
-  background-color: blue;
-  border: 2px solid black;
+
  }
  .sec2{
-  border: 2px solid black;
+
   border-radius: 15px;
   padding: 10px;
   display: grid;
   gap: 15px 0px;
-  background-color: green;
+
  }
  .subsec1{
   border-radius: 15px;
   height: 450px;
-  background-color: yellow;
+border: 2px solid black;
  }
  .option{
   border-radius: 0px;
+  border: none;
   height: 20px;
  }
 
@@ -54,11 +52,18 @@
  }
 .estaClimate{
   border-radius: 15px;
-  width: 350px;
-  height: 350px;
+  width: 340px;
+  height: 290px;
   margin:5px;
   border: 2px solid black
  }
  .title{
-  margin: 10px 0px
+  margin: 5px 0px
+ }
+ .estaFooter{
+  margin: 5px;
+  margin-top: 20px;
+  border-radius: 15px;
+  height: 80px;
+  border: 2px solid black
  }
