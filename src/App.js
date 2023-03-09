@@ -23,7 +23,7 @@ function App() {
         </div>
       </section>
       <section className = "sec2">
-        <div className = "subsec1 ">
+        <div className = "subsec1">
           <h4 className = "title">Titulo</h4>
           <div className = "subsec2">
             <div>
@@ -31,17 +31,23 @@ function App() {
                 vr
               </section>
               <section className = "estaFooter">
-                
+                vdf
               </section>
             </div>
             <div>
               <section className = "estaClimate">
                 vr
               </section>
+              <section className = "estaFooter">
+                vfdf
+              </section>
             </div>
             <div>
               <section className = "estaClimate">
                 vr
+              </section>
+              <section className = "estaFooter">
+                veve
               </section>
             </div>
           </div>
