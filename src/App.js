@@ -1,23 +1,58 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className = 'navClimate'>
+        <h5>
+          Weather
+        </h5>
+        <nav>
+          <img src = "./brand-google-home.png" alt = "logo" width = "40" heigth = "40"/>
+        </nav>
       </header>
+      <section className = "sec1">
+        <div className = "subsec1">
+          Hola mundo
+        </div>    
+        <div className = "option subsec1">
+          algo va aqui
+        </div>
+        <div className = "subsec1">
+          Chao mundo
+        </div>
+      </section>
+      <section className = "sec2">
+        <div className = "subsec1 ">
+          <h4 className = "title">Titulo</h4>
+          <div className = "subsec2">
+            <div>
+              <section className = "estaClimate">
+                vr
+              </section>
+              <section className = "estaFooter">
+                
+              </section>
+            </div>
+            <div>
+              <section className = "estaClimate">
+                vr
+              </section>
+            </div>
+            <div>
+              <section className = "estaClimate">
+                vr
+              </section>
+            </div>
+          </div>
+        </div>
+        <div className = "option subsec1">
+          algo va aqui
+        </div>
+        <div className = "subsec1">
+          Chao mundo
+        </div>
+      </section>
     </div>
   );
 }
